@@ -13,7 +13,7 @@ window.App = {
     VotingContract.setProvider(window.ethereum)
     VotingContract.defaults({from: window.ethereum.selectedAddress,gas:6654755})
 
-    // Load account data
+   
     App.account = window.ethereum.selectedAddress;
     $("#accountAddress").html("Your Account: " + window.ethereum.selectedAddress);
     VotingContract.deployed().then(function(instance){
