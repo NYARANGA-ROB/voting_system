@@ -8,7 +8,7 @@ from fastapi.encoders import jsonable_encoder
 from mysql.connector import errorcode
 import jwt
 
-# Loading the environment variables
+# Loading the environment variable
 dotenv.load_dotenv()
 
 # Initialize the todoapi app
